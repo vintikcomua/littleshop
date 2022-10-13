@@ -1,0 +1,21 @@
+object DataModuleMain: TDataModuleMain
+  OldCreateOrder = False
+  Height = 247
+  HorizontalOffset = 248
+  VerticalOffset = 145
+  Width = 445
+  object mainSQLConnector: TSQLConnector
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    Transaction = mailSQLTransaction
+    Left = 48
+    Top = 40
+  end
+  object mailSQLTransaction: TSQLTransaction
+    Active = False
+    Database = mainSQLConnector
+    Left = 48
+    Top = 104
+  end
+end

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units>
+      <Unit>
+        <Filename Value="littleshop.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="fmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fMain"/>
+        <CursorPos X="22" Y="8"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="dmmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataModuleMain"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="dmMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="29" Y="8"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="14">
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="15" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="19" Column="22" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="21" Column="22" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="22" Column="22" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="21" Column="22" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="13" Column="46" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="6" Column="56" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="24" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="25" Column="40" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="26" Column="40" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="25" Column="40" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="24" Column="40" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="25" Column="40" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="26" Column="40" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="25" Column="40" TopLine="10"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,30 @@
+object MainForm: TMainForm
+  Left = 248
+  Height = 240
+  Top = 136
+  Width = 320
+  Caption = 'MainForm'
+  ClientHeight = 240
+  ClientWidth = 320
+  Menu = MainMenu
+  LCLVersion = '2.2.2.0'
+  object StatusBar: TStatusBar
+    Left = 0
+    Height = 20
+    Top = 220
+    Width = 320
+    Panels = <>
+  end
+  object MainMenu: TMainMenu
+    Left = 72
+    Top = 36
+  end
+  object ActionList: TActionList
+    Left = 16
+    Top = 64
+  end
+  object ImageList: TImageList
+    Left = 72
+    Top = 104
+  end
+end
