@@ -9,13 +9,16 @@ unit uGlobalVar;
 interface
 
 uses
-  Classes, SysUtils, eventlog;
+  Classes, SysUtils, eventlog, IniFiles;
 
 var
   //This component using for loggin events
   //varible initialize in TMainDataModule.DataModuleCreate
   lsEventLog: TEventLog;
 
+
+  //This component using for saving properties
+  lsIniFile: TIniFile;
 
 implementation
 

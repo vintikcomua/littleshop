@@ -10,11 +10,11 @@ object MainDataModule: TMainDataModule
     Connected = False
     LoginPrompt = False
     KeepConnection = False
-    Transaction = mailSQLTransaction
+    Transaction = mainRSQLTransaction
     Left = 48
     Top = 40
   end
-  object mailSQLTransaction: TSQLTransaction
+  object mainRSQLTransaction: TSQLTransaction
     Active = False
     Database = mainSQLConnector
     Left = 48
