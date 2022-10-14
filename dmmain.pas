@@ -35,12 +35,13 @@ procedure TMainDataModule.DataModuleCreate(Sender: TObject);
 begin
   //Log initialization
   lsEventLog := TEventLog.Create(Self);
-  lsEventLog.LogType        := ltFile;
-  lsEventLog.FileName       := ExtractFilePath(Application.ExeName)+ 'log\' + ChangeFileExt(ExtractFileName(Application.ExeName),'.log');
-  lsEventLog.Identification := 'Little shop';
-  lsEventLog.CustomLogType  := 1;
-  lsEventLog.AppendContent  := True;
-  lsEventLog.Active         := True;
+  lsEventLog.DefaultEventType := TEventType.etInfo;
+  lsEventLog.LogType          := ltFile;
+  lsEventLog.FileName         := ExtractFilePath(Application.ExeName)+ 'log\' + ChangeFileExt(ExtractFileName(Application.ExeName),'.log');
+  lsEventLog.Identification   := 'Little shop';
+  //lsEventLog.CustomLogType    := 1;
+  lsEventLog.AppendContent    := True;
+  lsEventLog.Active           := True;
   lsEventLog.Log('Program started');
 end;
 

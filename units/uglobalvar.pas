@@ -1,7 +1,7 @@
 unit uGlobalVar;
 {
-This module is intended for storage global varibles
-This unit uses in all modules
+  This module is intended for storage global varibles
+  This unit uses in all modules
 }
 
 {$mode ObjFPC}{$H+}
