@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ActnList,
-  ComCtrls;
+  ComCtrls, uGlobalVar, dmMain;
 
 type
 
@@ -17,6 +17,7 @@ type
     ImageList: TImageList;
     MainMenu: TMainMenu;
     StatusBar: TStatusBar;
+    procedure FormCreate(Sender: TObject);
   private
 
   public
@@ -29,6 +30,15 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TMainForm }
+
+procedure TMainForm.FormCreate(Sender: TObject);
+begin
+  StatusBar.SimpleText := 'program started';
+
+  lsEventLog.Log('MainFom created');
+end;
 
 end.
 

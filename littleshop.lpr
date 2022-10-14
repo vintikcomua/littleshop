@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, fMain, dmMain
+  Forms, fMain, dmMain, uGlobalVar
   { you can add units after this };
 
 {$R *.res}
@@ -19,8 +19,8 @@ begin
   RequireDerivedFormResource:=True;
   Application.Scaled:=True;
   Application.Initialize;
+  Application.CreateForm(TMainDataModule, MainDataModule);
   Application.CreateForm(TMainForm, MainForm);
-  Application.CreateForm(TDataModuleMain, DataModuleMain);
   Application.Run;
 end.
 

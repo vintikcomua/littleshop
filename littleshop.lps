@@ -3,16 +3,15 @@
   <ProjectSession>
     <PathDelim Value="\"/>
     <Version Value="12"/>
-    <BuildModes Active="Release"/>
+    <BuildModes Active="Debug"/>
     <Units>
       <Unit>
         <Filename Value="littleshop.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="10"/>
+        <CursorPos Y="17"/>
+        <UsageCount Value="26"/>
       </Unit>
       <Unit>
         <Filename Value="fmain.pas"/>
@@ -21,26 +20,59 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="fMain"/>
-        <CursorPos X="22" Y="8"/>
-        <UsageCount Value="21"/>
+        <CursorPos X="34" Y="40"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="dmmain.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="DataModuleMain"/>
+        <ComponentName Value="MainDataModule"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmMain"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="29" Y="8"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="37"/>
+        <CursorPos X="26" Y="34"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\lazhelphtml.pas"/>
+        <UnitName Value="LazHelpHTML"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="20" Y="52"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\finah.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="23" Y="22"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="units\uglobalvar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uGlobalVar"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="6"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1071"/>
+        <CursorPos Y="1079"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="14">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="fmain.pas"/>
         <Caret Line="15" Column="22"/>
@@ -64,10 +96,6 @@
       <Position>
         <Filename Value="fmain.pas"/>
         <Caret Line="13" Column="46" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="6" Column="56" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="dmmain.pas"/>
@@ -100,6 +128,70 @@
       <Position>
         <Filename Value="dmmain.pas"/>
         <Caret Line="25" Column="40" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="41" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="40" Column="17" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="41" Column="44" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="46" Column="42" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="38" Column="17" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="40" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="41" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="36" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="41" Column="31" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="38" Column="44" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="39" Column="115" TopLine="33"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="15" Column="5" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="36" Column="23" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="48" Column="13" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="49" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="dmmain.pas"/>
+        <Caret Line="51" TopLine="37"/>
       </Position>
     </JumpHistory>
     <RunParams>

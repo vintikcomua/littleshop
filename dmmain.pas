@@ -5,15 +5,17 @@ unit dmMain;
 interface
 
 uses
-  Classes, SysUtils, SQLDB, IBConnection, SQLite3Conn;
+  Classes, SysUtils, Forms, SQLDB, eventlog, uGlobalVar;
 
 type
 
-  { TDataModuleMain }
+  { TMainDataModule }
 
-  TDataModuleMain = class(TDataModule)
+  TMainDataModule = class(TDataModule)
     mainSQLConnector: TSQLConnector;
     mailSQLTransaction: TSQLTransaction;
+    procedure DataModuleCreate(Sender: TObject);
+    procedure DataModuleDestroy(Sender: TObject);
   private
 
   public
@@ -21,11 +23,32 @@ type
   end;
 
 var
-  DataModuleMain: TDataModuleMain;
+  MainDataModule: TMainDataModule;
 
 implementation
 
 {$R *.lfm}
+
+{ TMainDataModule }
+
+procedure TMainDataModule.DataModuleCreate(Sender: TObject);
+begin
+  //Log initialization
+  lsEventLog := TEventLog.Create(Self);
+  lsEventLog.LogType        := ltFile;
+  lsEventLog.FileName       := ExtractFilePath(Application.ExeName)+ 'log\' + ChangeFileExt(ExtractFileName(Application.ExeName),'.log');
+  lsEventLog.Identification := 'Little shop';
+  lsEventLog.CustomLogType  := 1;
+  lsEventLog.AppendContent  := True;
+  lsEventLog.Active         := True;
+  lsEventLog.Log('Program started');
+end;
+
+procedure TMainDataModule.DataModuleDestroy(Sender: TObject);
+begin
+  lsEventLog.Log('Program stoped');
+  lsEventLog.Free;
+end;
 
 end.
 
