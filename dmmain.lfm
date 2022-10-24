@@ -3,8 +3,8 @@ object MainDataModule: TMainDataModule
   OnDestroy = DataModuleDestroy
   OldCreateOrder = False
   Height = 248
-  HorizontalOffset = 248
-  VerticalOffset = 145
+  HorizontalOffset = 345
+  VerticalOffset = 153
   Width = 445
   object mainSQLConnector: TSQLConnector
     Connected = False
