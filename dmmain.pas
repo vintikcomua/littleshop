@@ -40,7 +40,7 @@ begin
   lsEventLog := TEventLog.Create(Self);
   lsEventLog.DefaultEventType := TEventType.etInfo;
   lsEventLog.LogType          := ltFile;
-  lsEventLog.FileName         := ExtractFilePath(Application.ExeName)+ 'log\' + ChangeFileExt(ExtractFileName(Application.ExeName),'.log');
+  lsEventLog.FileName         := ExtractFilePath(Application.ExeName)+ 'log/' + ChangeFileExt(ExtractFileName(Application.ExeName),'.log');
   lsEventLog.Identification   := 'Little shop';
   //lsEventLog.CustomLogType    := 1;
   lsEventLog.AppendContent    := True;
@@ -51,7 +51,7 @@ begin
   lsIniFile := TIniFile.Create(ChangeFileExt(Application.ExeName,'.ini'));
 
   mainSQLConnector.ConnectorType := lsIniFile.ReadString('DataBase', 'ConnectorType', 'SQLite3');    // (Section, Key, Default)
-  DataBaseName := ExtractFilePath(Application.ExeName)+ 'db\' + ChangeFileExt(ExtractFileName(Application.ExeName),'.db');
+  DataBaseName := ExtractFilePath(Application.ExeName)+ 'db/' + ChangeFileExt(ExtractFileName(Application.ExeName),'.db');
   mainSQLConnector.DatabaseName := lsIniFile.ReadString('DataBase', 'DatabaseName', DataBaseName);
   mainSQLConnector.UserName := lsIniFile.ReadString('DataBase', 'UserName', '');
   mainSQLConnector.Password := lsIniFile.ReadString('DataBase', 'Password', '');
