@@ -1,5 +1,0 @@
-Little shop [2022-10-24 22:15:59.277 Info] Program started
-Little shop [2022-10-24 22:16:01.553 Error] Database error: EInOutError
-Can not load SQLite client library "libsqlite3.so". Check your installation.
-Little shop [2022-10-24 22:16:01.555 Info] MainFom created
-Little shop [2022-10-24 22:16:02.821 Info] Program stoped
