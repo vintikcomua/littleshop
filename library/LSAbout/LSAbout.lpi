@@ -4,22 +4,16 @@
     <Version Value="12"/>
     <PathDelim Value="\"/>
     <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="littleshop"/>
-      <Scaled Value="True"/>
+      <Title Value="LSAbout"/>
+      <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
-      <UseXPManifest Value="True"/>
-      <XPManifest>
-        <DpiAware Value="True"/>
-      </XPManifest>
-      <Icon Value="0"/>
     </General>
-    <VersionInfo>
-      <UseVersionInfo Value="True"/>
-      <MinorVersionNr Value="1"/>
-      <Language Value="0422"/>
-      <StringTable CompanyName="Vidam LTD" ProductName="Little shop"/>
-    </VersionInfo>
     <BuildModes>
       <Item Name="Debug" Default="True"/>
       <Item Name="Release">
@@ -27,15 +21,15 @@
           <Version Value="11"/>
           <PathDelim Value="\"/>
           <Target>
-            <Filename Value="littleshop"/>
+            <Filename Value="LSAbout"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir)"/>
-            <OtherUnitFiles Value="units"/>
             <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
           </SearchPaths>
           <CodeGeneration>
             <SmartLinkUnit Value="True"/>
+            <RelocatableUnit Value="True"/>
             <Optimizations>
               <OptimizationLevel Value="3"/>
             </Optimizations>
@@ -43,13 +37,10 @@
           <Linking>
             <Debugging>
               <GenerateDebugInfo Value="False"/>
-              <DebugInfoType Value="dsDwarf3"/>
             </Debugging>
             <LinkSmart Value="True"/>
             <Options>
-              <Win32>
-                <GraphicApplication Value="True"/>
-              </Win32>
+              <ExecutableType Value="Library"/>
             </Options>
           </Linking>
         </CompilerOptions>
@@ -62,38 +53,10 @@
     <RunParams>
       <FormatVersion Value="2"/>
     </RunParams>
-    <RequiredPackages>
-      <Item>
-        <PackageName Value="FCL"/>
-      </Item>
-      <Item>
-        <PackageName Value="LCL"/>
-      </Item>
-    </RequiredPackages>
     <Units>
       <Unit>
-        <Filename Value="littleshop.lpr"/>
+        <Filename Value="LSAbout.lpr"/>
         <IsPartOfProject Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="dmmain.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="MainDataModule"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="DataModule"/>
-        <UnitName Value="dmMain"/>
-      </Unit>
-      <Unit>
-        <Filename Value="units\uglobalvar.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uGlobalVar"/>
-      </Unit>
-      <Unit>
-        <Filename Value="forms\fmain.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="MainForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -101,11 +64,10 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="littleshop"/>
+      <Filename Value="..\LSAbout"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="units"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Parsing>
@@ -114,6 +76,7 @@
       </SyntaxOptions>
     </Parsing>
     <CodeGeneration>
+      <RelocatableUnit Value="True"/>
       <Checks>
         <IOChecks Value="True"/>
         <RangeChecks Value="True"/>
@@ -130,9 +93,7 @@
         <UseExternalDbgSyms Value="True"/>
       </Debugging>
       <Options>
-        <Win32>
-          <GraphicApplication Value="True"/>
-        </Win32>
+        <ExecutableType Value="Library"/>
       </Options>
     </Linking>
   </CompilerOptions>

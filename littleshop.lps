@@ -15,15 +15,13 @@
       </Unit>
       <Unit>
         <Filename Value="fmain.pas"/>
-        <IsPartOfProject Value="True"/>
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="fMain"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="34" Y="40"/>
         <UsageCount Value="34"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="dmmain.pas"/>
@@ -33,7 +31,6 @@
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmMain"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
         <TopLine Value="32"/>
         <CursorPos X="61" Y="54"/>
         <UsageCount Value="34"/>
@@ -44,7 +41,7 @@
         <Filename Value="units\uglobalvar.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uGlobalVar"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="8"/>
         <CursorPos X="40" Y="12"/>
         <UsageCount Value="29"/>
@@ -80,8 +77,20 @@
         <CursorPos X="18" Y="62"/>
         <UsageCount Value="13"/>
       </Unit>
+      <Unit>
+        <Filename Value="forms\fmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="dmmain.pas"/>
         <Caret Line="25" Column="40" TopLine="10"/>
@@ -129,10 +138,6 @@
       <Position>
         <Filename Value="dmmain.pas"/>
         <Caret Line="41" Column="31" TopLine="35"/>
-      </Position>
-      <Position>
-        <Filename Value="fmain.pas"/>
-        <Caret Line="38" Column="44" TopLine="26"/>
       </Position>
       <Position>
         <Filename Value="dmmain.pas"/>
