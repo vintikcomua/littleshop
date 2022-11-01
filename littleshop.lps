@@ -11,17 +11,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
         <CursorPos Y="17"/>
-        <UsageCount Value="34"/>
-      </Unit>
-      <Unit>
-        <Filename Value="fmain.pas"/>
-        <ComponentName Value="MainForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="fMain"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="34" Y="40"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="56"/>
       </Unit>
       <Unit>
         <Filename Value="dmmain.pas"/>
@@ -31,9 +21,9 @@
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmMain"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="32"/>
+        <TopLine Value="45"/>
         <CursorPos X="61" Y="54"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="56"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -42,40 +32,10 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="uGlobalVar"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="8"/>
+        <TopLine Value="5"/>
         <CursorPos X="40" Y="12"/>
-        <UsageCount Value="29"/>
+        <UsageCount Value="51"/>
         <Loaded Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="C:\lazarus\lcl\lazhelphtml.pas"/>
-        <UnitName Value="LazHelpHTML"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="52"/>
-        <CursorPos X="20" Y="52"/>
-        <UsageCount Value="9"/>
-      </Unit>
-      <Unit>
-        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\finah.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="16"/>
-        <CursorPos X="23" Y="22"/>
-        <UsageCount Value="9"/>
-      </Unit>
-      <Unit>
-        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1071"/>
-        <CursorPos Y="1079"/>
-        <UsageCount Value="9"/>
-      </Unit>
-      <Unit>
-        <Filename Value="C:\lazarus\lcl\xmlpropstorage.pas"/>
-        <UnitName Value="XMLPropStorage"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="57"/>
-        <CursorPos X="18" Y="62"/>
-        <UsageCount Value="13"/>
       </Unit>
       <Unit>
         <Filename Value="forms\fmain.pas"/>
@@ -87,7 +47,47 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="42"/>
+      </Unit>
+      <Unit>
+        <Filename Value="fmain.pas"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fMain"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="34" Y="40"/>
+        <UsageCount Value="32"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\lazhelphtml.pas"/>
+        <UnitName Value="LazHelpHTML"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="20" Y="52"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\finah.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos X="23" Y="22"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1071"/>
+        <CursorPos Y="1079"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\xmlpropstorage.pas"/>
+        <UnitName Value="XMLPropStorage"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="57"/>
+        <CursorPos X="18" Y="62"/>
+        <UsageCount Value="11"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="28">
