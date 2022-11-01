@@ -9,9 +9,8 @@
         <Filename Value="littleshop.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="10"/>
-        <CursorPos Y="17"/>
-        <UsageCount Value="56"/>
+        <CursorPos X="10" Y="13"/>
+        <UsageCount Value="59"/>
       </Unit>
       <Unit>
         <Filename Value="dmmain.pas"/>
@@ -20,21 +19,19 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmMain"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="45"/>
-        <CursorPos X="61" Y="54"/>
-        <UsageCount Value="56"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos Y="33"/>
+        <UsageCount Value="59"/>
       </Unit>
       <Unit>
         <Filename Value="units\uglobalvar.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uGlobalVar"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="5"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="4"/>
         <CursorPos X="40" Y="12"/>
-        <UsageCount Value="51"/>
+        <UsageCount Value="54"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -43,11 +40,12 @@
         <ComponentName Value="MainForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="42"/>
+        <UnitName Value="fMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="fmain.pas"/>
@@ -89,123 +87,24 @@
         <CursorPos X="18" Y="62"/>
         <UsageCount Value="11"/>
       </Unit>
+      <Unit>
+        <Filename Value="forms\fabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="10"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
+    <JumpHistory HistoryIndex="1">
       <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="25" Column="40" TopLine="10"/>
+        <Filename Value="forms\fabout.pas"/>
       </Position>
       <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="26" Column="40" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="25" Column="40" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="41" TopLine="27"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="40" Column="17" TopLine="28"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="41" Column="44" TopLine="29"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="46" Column="42" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="38" Column="17" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="40" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="41" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="36" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="41" Column="31" TopLine="35"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="39" Column="115" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="15" Column="5" TopLine="10"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="36" Column="23" TopLine="25"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="48" Column="13" TopLine="32"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="49" TopLine="35"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="51" TopLine="37"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="52" Column="86" TopLine="38"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="53" Column="86" TopLine="39"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="55" TopLine="43"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="55" Column="90" TopLine="42"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="53" TopLine="42"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="40" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="41" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="42" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="43" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="40" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="dmmain.pas"/>
-        <Caret Line="43" TopLine="33"/>
+        <Filename Value="forms\fmain.pas"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -1,23 +1,14 @@
-Little shop [2022-10-14 16:33:51.047 Info] Program started
-Little shop [2022-10-14 16:33:51.052 Info] Database open ok
-Little shop [2022-10-14 16:33:51.057 Info] MainFom created
-Little shop [2022-10-14 16:33:52.954 Info] Program stoped
-Little shop [2022-10-17 16:41:53.720 Info] Program started
-Little shop [2022-10-17 16:41:53.760 Info] Database open ok
-Little shop [2022-10-17 16:41:53.770 Info] MainFom created
-Little shop [2022-10-17 16:41:55.250 Info] Program stoped
-Little shop [2022-10-24 22:16:20.358 Info] Program started
-Little shop [2022-10-24 22:16:22.547 Error] Database error: EInOutError
+Little shop [2022-11-01 21:37:58.202 Info] Program started
+Little shop [2022-11-01 21:37:58.202 Error] Database error: EInOutError
 Can not load SQLite client library "libsqlite3.so". Check your installation.
-Little shop [2022-10-24 22:16:22.548 Info] MainFom created
-Little shop [2022-10-24 22:16:23.845 Info] Program stoped
-Little shop [2022-10-24 22:17:26.054 Info] Program started
-Little shop [2022-10-24 22:17:27.682 Error] Database error: EInOutError
+Little shop [2022-11-01 21:37:58.203 Info] MainFom created
+Little shop [2022-11-01 21:37:59.566 Info] Program stoped
+Little shop [2022-11-01 21:39:38.169 Info] Program started
+Little shop [2022-11-01 21:39:38.170 Error] Database error: EInOutError
 Can not load SQLite client library "libsqlite3.so". Check your installation.
-Little shop [2022-10-24 22:17:27.685 Info] MainFom created
-Little shop [2022-10-24 22:17:29.053 Info] Program stoped
-Little shop [2022-10-24 23:04:42.198 Info] Program started
-Little shop [2022-10-24 23:04:44.673 Error] Database error: EInOutError
-Can not load SQLite client library "libsqlite3.so". Check your installation.
-Little shop [2022-10-24 23:04:44.676 Info] MainFom created
-Little shop [2022-10-24 23:04:46.519 Info] Program stoped
+Little shop [2022-11-01 21:39:38.170 Info] MainFom created
+Little shop [2022-11-01 21:39:39.965 Info] Program stoped
+Little shop [2022-11-01 21:44:49.512 Info] Program started
+Little shop [2022-11-01 21:44:49.512 Info] Database open ok
+Little shop [2022-11-01 21:44:49.513 Info] MainFom created
+Little shop [2022-11-01 21:44:51.100 Info] Program stoped

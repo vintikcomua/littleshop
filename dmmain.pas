@@ -30,6 +30,7 @@ implementation
 
 {$R *.lfm}
 
+
 { TMainDataModule }
 
 procedure TMainDataModule.DataModuleCreate(Sender: TObject);
@@ -51,7 +52,8 @@ begin
   lsIniFile := TIniFile.Create(ChangeFileExt(Application.ExeName,'.ini'));
 
   mainSQLConnector.ConnectorType := lsIniFile.ReadString('DataBase', 'ConnectorType', 'SQLite3');    // (Section, Key, Default)
-  DataBaseName := ExtractFilePath(Application.ExeName)+ 'db/' + ChangeFileExt(ExtractFileName(Application.ExeName),'.db');
+  //DataBaseName := ExtractFilePath(Application.ExeName)+ 'db/' + ChangeFileExt(ExtractFileName(Application.ExeName),'.db');
+  DataBaseName :=  'db/' + ChangeFileExt(ExtractFileName(Application.ExeName),'.db');
   mainSQLConnector.DatabaseName := lsIniFile.ReadString('DataBase', 'DatabaseName', DataBaseName);
   mainSQLConnector.UserName := lsIniFile.ReadString('DataBase', 'UserName', '');
   mainSQLConnector.Password := lsIniFile.ReadString('DataBase', 'Password', '');

@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ActnList,
-  ComCtrls, uGlobalVar, dmMain;
+  ComCtrls, StdActns, uGlobalVar, dmMain;
 
 type
 
@@ -14,6 +14,7 @@ type
 
   TMainForm = class(TForm)
     ActionList: TActionList;
+    HelpAboutAction: THelpAction;
     ImageList: TImageList;
     MainMenu: TMainMenu;
     StatusBar: TStatusBar;
