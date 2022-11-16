@@ -3,33 +3,115 @@ object MainForm: TMainForm
   Height = 240
   Top = 149
   Width = 320
-  Caption = 'MainForm'
-  ClientHeight = 240
+  Caption = 'Little shop'
+  ClientHeight = 221
   ClientWidth = 320
   Menu = MainMenu
   OnCreate = FormCreate
   LCLVersion = '2.2.4.0'
   object StatusBar: TStatusBar
     Left = 0
-    Height = 19
-    Top = 221
+    Height = 20
+    Top = 201
     Width = 320
+    AutoHint = True
     Panels = <>
   end
+  object ToolBar: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 320
+    Caption = 'ToolBar'
+    TabOrder = 1
+  end
+  object PageControl: TPageControl
+    Left = 0
+    Height = 175
+    Top = 26
+    Width = 320
+    Align = alClient
+    TabOrder = 2
+    TabPosition = tpBottom
+    Options = [nboShowCloseButtons]
+  end
   object MainMenu: TMainMenu
+    Images = ImageList
     Left = 72
     Top = 36
+    object miFile: TMenuItem
+      Caption = '&File'
+      object MenuItem10: TMenuItem
+        Caption = '-'
+      end
+      object miFileExit: TMenuItem
+        Action = FileExitAction
+      end
+    end
+    object miDictonary: TMenuItem
+      Caption = 'Dictonary'
+      Hint = 'Dictonary'
+      object miDictonaryBrand: TMenuItem
+        Action = DictonaryBrandAction
+      end
+    end
+    object miHelp: TMenuItem
+      Caption = '&Help'
+      object MenuItem9: TMenuItem
+        Caption = '-'
+      end
+      object miHelpAction: TMenuItem
+        Action = HelpAboutAction
+      end
+    end
   end
   object ActionList: TActionList
+    Images = ImageList
     Left = 16
     Top = 64
     object HelpAboutAction: THelpAction
       Category = 'Help'
-      Caption = 'HelpAboutAction'
+      Caption = 'About'
+      Hint = 'About'
+      ImageIndex = 0
+      OnExecute = HelpAboutActionExecute
+    end
+    object FileExitAction: TFileExit
+      Category = 'File'
+      Caption = '&Exit'
+      Hint = 'Exit'
+      ImageIndex = 1
+    end
+    object DictonaryBrandAction: TAction
+      Category = 'Dictonary'
+      Caption = 'Brands'
+      Hint = 'Brands'
+      OnExecute = DictonaryBrandActionExecute
     end
   end
   object ImageList: TImageList
     Left = 72
     Top = 104
+    Bitmap = {
+      4C7A020000001000000010000000360200000000000078DAAD534B4F5351109E
+      10450B0B562486C4852B17CA02424C6063D05F6062E24A17BA60E9DA9D2B7E01
+      0B48494CBA422CA2699548ABF401985A0BA18400E561852E74416F697A79D872
+      C633F7B4F43EE6922A4CF2E5E49C99EFCE77BE39171101CD2826BAC4FAD36191
+      B89111B1A63FDAEB96F27EF0E686FE6D60A4B297EC467B7D0D27258F587BE215
+      51101258437EECAA057AE2D92856748F83BBD81B33F3DCF88462F86EDCFC8D6A
+      5F2B77AE0DF1970F8F3343A84DB4F33A6AF7B56936B0F210F12887622F89A5D8
+      035607F96178C5E8165FAF216A5FB0BCE3C7C2BBEB2C9F3C357CE6F8F3ED060A
+      931DA8BD6963F934179A91831B6F462C2E9EEAD7671FB17C9A2DCB27AC3E6E8C
+      EFA6BF01BEA1DFCDBF06F8E41F3BBFF865C4DCD029FF6865D0757EECFB895F41
+      DC7E61E020F5DC80EBFBB980F77BEEFFE71CFFAF7B4CE50016B26AFD9F202E35
+      A0F55FC2DF03F0B2C9C9F7DF3A9B479CF02B80D06F005FAB93FF49DE23EC5575
+      5C506EFF18607987E7A732008532C067AF931BEC03F89157F5E95D80400BCFA7
+      FDB6AC0BF45AF991008090B98AC4CC34EF5F645AE5A92EF2DECA4F7E57B5395D
+      F9C7CD6FF28ECC97541DD59B23B5A9CE977F028C7B787FE89CBC31346DD8FAA7
+      D53979E036A7F14E99D7AAFDD3D65CF4833A37DFDF1E332195A7BA68D09A0BDC
+      07C856FDCF1FA8DAB7B765CF66D597F6F9C3BAC660BFF3FB211F40B152D7415A
+      D3D28FAC56EF4B79AA63F55D52B99A0E3BE89CF25477567CBCA7EE975C9273D9
+      522BEDE9FCE2E32FA826A6AD
+    }
   end
 end

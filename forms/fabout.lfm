@@ -1,21 +1,20 @@
 object frmAbout: TfrmAbout
   Left = 374
-  Height = 280
+  Height = 240
   Top = 195
-  Width = 412
+  Width = 320
   ActiveControl = bbtnClose
   BorderIcons = []
-  BorderStyle = bsDialog
   Caption = 'Про програму'
-  ClientHeight = 280
-  ClientWidth = 412
+  ClientHeight = 240
+  ClientWidth = 320
   Position = poOwnerFormCenter
   LCLVersion = '2.2.4.0'
   object imgLogo: TImage
     Left = 8
-    Height = 100
-    Top = 32
-    Width = 100
+    Height = 96
+    Top = 8
+    Width = 96
     Picture.Data = {
       055449636F6EBE9400000000010001006060000001002000A894000016000000
       2800000060000000C00000000100200000000000009000006400000064000000
@@ -1211,9 +1210,9 @@ object frmAbout: TfrmAbout
     }
   end
   object bbtnClose: TBitBtn
-    Left = 158
+    Left = 104
     Height = 30
-    Top = 240
+    Top = 200
     Width = 96
     Cancel = True
     Caption = 'Закрити'
@@ -1258,9 +1257,9 @@ object frmAbout: TfrmAbout
   end
   object lblTitle: TLabel
     Left = 167
-    Height = 17
+    Height = 16
     Top = 9
-    Width = 85
+    Width = 72
     Caption = 'Крамничка'
     Font.Height = -13
     Font.Name = 'Sans'
@@ -1269,65 +1268,65 @@ object frmAbout: TfrmAbout
     ParentFont = False
   end
   object lblDescription: TLabel
-    Left = 128
-    Height = 34
+    Left = 120
+    Height = 26
     Top = 32
-    Width = 256
+    Width = 183
     Caption = 'Програма обліку торгових операцій '#10'в маленьких магазинах'
     ParentColor = False
   end
   object lblCopyright: TLabel
-    Left = 39
+    Left = 53
     Height = 18
-    Top = 142
-    Width = 69
+    Top = 112
+    Width = 51
     Alignment = taRightJustify
     Caption = 'Copyright:'
     Constraints.MinHeight = 18
     ParentColor = False
   end
   object lblVersion: TLabel
-    Left = 59
+    Left = 69
     Height = 18
-    Top = 164
-    Width = 49
+    Top = 134
+    Width = 35
     Alignment = taRightJustify
     Caption = 'Версія:'
     Constraints.MinHeight = 18
     ParentColor = False
   end
   object lblCopyrightText: TLabel
-    Left = 128
+    Left = 120
     Height = 18
-    Top = 142
-    Width = 139
-    Caption = '© VintikComUa 2021'
+    Top = 112
+    Width = 136
+    Caption = '© VintikComUa 2021 - 2022 '
     Constraints.MinHeight = 18
     ParentColor = False
   end
   object lblVersionText: TLabel
-    Left = 128
-    Height = 17
-    Top = 164
-    Width = 79
+    Left = 120
+    Height = 13
+    Top = 134
+    Width = 63
     Caption = '0.1.0.0 бета'
     ParentColor = False
   end
   object lblLicense: TLabel
-    Left = 45
+    Left = 60
     Height = 18
-    Top = 186
-    Width = 63
+    Top = 156
+    Width = 44
     Alignment = taRightJustify
     Caption = 'Ліцензія:'
     Constraints.MinHeight = 18
     ParentColor = False
   end
   object lblLicenseText: TLabel
-    Left = 128
-    Height = 34
-    Top = 186
-    Width = 268
+    Left = 120
+    Height = 26
+    Top = 152
+    Width = 197
     Caption = 'This program is free software under '#10'GNU GPL 2 license, see COPYING.txt file.'
     ParentColor = False
   end
