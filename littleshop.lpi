@@ -107,6 +107,7 @@
         <Filename Value="frames\frdicbrand.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="DicBrandFrame"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="frDicBrand"/>
       </Unit>
