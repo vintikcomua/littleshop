@@ -10,14 +10,27 @@ object MainDataModule: TMainDataModule
     Connected = False
     LoginPrompt = False
     KeepConnection = False
-    Transaction = mainRSQLTransaction
+    Transaction = mainSQLTransaction
     Left = 48
     Top = 40
   end
-  object mainRSQLTransaction: TSQLTransaction
+  object mainSQLTransaction: TSQLTransaction
     Active = False
     Database = mainSQLConnector
     Left = 48
     Top = 104
+  end
+  object qBrand: TSQLQuery
+    FieldDefs = <>
+    Database = mainSQLConnector
+    Transaction = mainSQLTransaction
+    SQL.Strings = (
+      'select id, short'
+      'from dicBrand'
+    )
+    Params = <>
+    Macros = <>
+    Left = 168
+    Top = 40
   end
 end

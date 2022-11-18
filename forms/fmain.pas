@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, Menus, ActnList,
-  ComCtrls, StdActns, uGlobalVar, dmMain, fabout;
+  ComCtrls, StdActns, uGlobalVar, dmMain, fabout, frDicBrand;
 
 type
 
@@ -52,15 +52,19 @@ procedure TMainForm.FormCreate(Sender: TObject);
 begin
   StatusBar.SimpleText := 'program started';
 
-  lsEventLog.Log('MainForm created');
+  lsEventLog.Info('MainForm created');
 end;
 
 procedure TMainForm.DictonaryBrandActionExecute(Sender: TObject);
 var
   Brand: TTabSheet;
+  Frame: TFrame;
 begin
   Brand := PageControl.AddTabSheet;
   Brand.Caption := 'Brand';
+
+  Frame := TDicBrandFrame.Create(Brand);
+  Frame.Parent := Brand;
 end;
 
 procedure TMainForm.HelpAboutActionExecute(Sender: TObject);

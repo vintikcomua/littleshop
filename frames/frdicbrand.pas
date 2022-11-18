@@ -5,15 +5,23 @@ unit frDicBrand;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, ComCtrls, DBGrids;
+  Classes, SysUtils, DB, Forms, Controls, ComCtrls, DBGrids;
 
 type
 
   { TDicBrandFrame }
 
   TDicBrandFrame = class(TFrame)
+    DataSource: TDataSource;
     DBGrid: TDBGrid;
-    NavigatorToolBar: TToolBar;
+    ilNavigatorButton: TImageList;
+    tbNavigator: TToolBar;
+    tbtSelect: TToolButton;
+    tbtSeparator1: TToolButton;
+    tbtAdd: TToolButton;
+    tbtCopy: TToolButton;
+    tbtEdit: TToolButton;
+    ToolButton1: TToolButton;
   private
 
   public

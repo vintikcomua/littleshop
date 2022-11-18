@@ -14,7 +14,8 @@ type
 
   TMainDataModule = class(TDataModule)
     mainSQLConnector: TSQLConnector;
-    mainRSQLTransaction: TSQLTransaction;
+    mainSQLTransaction: TSQLTransaction;
+    qBrand: TSQLQuery;
     procedure DataModuleCreate(Sender: TObject);
     procedure DataModuleDestroy(Sender: TObject);
   private
@@ -46,7 +47,7 @@ begin
   //lsEventLog.CustomLogType    := 1;
   lsEventLog.AppendContent    := True;
   lsEventLog.Active           := True;
-  lsEventLog.Log('Program started');
+  lsEventLog.Info('Program started');
 
   //Load saved properties init
   lsIniFile := TIniFile.Create(ChangeFileExt(Application.ExeName,'.ini'));
@@ -60,17 +61,20 @@ begin
 
   try
     mainSQLConnector.Open;
-    lsEventLog.Log('Database open ok');
+    lsEventLog.Info('Database open ok');
   except
     on E: Exception do
        lsEventLog.Error('Database error: '+ E.ClassName + #13#10 + E.Message );
   end;
 
+  mainSQLTransaction.Active := True;
+  lsEventLog.Info('Тransaction active');
 end;
 
 procedure TMainDataModule.DataModuleDestroy(Sender: TObject);
 begin
-  lsEventLog.Log('Program stoped');
+  //Close log file
+  lsEventLog.Info('Program stoped');
   lsEventLog.Free;
 
   //Save database setting on exit
