@@ -21,7 +21,7 @@ type
     tbtAdd: TToolButton;
     tbtCopy: TToolButton;
     tbtEdit: TToolButton;
-    ToolButton1: TToolButton;
+    tbtDelete: TToolButton;
   private
 
   public

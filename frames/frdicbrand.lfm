@@ -30,13 +30,13 @@ object DicBrandFrame: TDicBrandFrame
       Visible = False
     end
     object tbtSeparator1: TToolButton
-      Left = 59
+      Left = 71
       Height = 22
       Top = 0
       Style = tbsDivider
     end
     object tbtAdd: TToolButton
-      Left = 64
+      Left = 76
       Hint = 'Add'
       Top = 0
       Caption = 'Add'
@@ -44,7 +44,7 @@ object DicBrandFrame: TDicBrandFrame
       ShowCaption = False
     end
     object tbtCopy: TToolButton
-      Left = 87
+      Left = 99
       Hint = 'Copy'
       Top = 0
       Caption = 'Copy'
@@ -52,18 +52,20 @@ object DicBrandFrame: TDicBrandFrame
       ShowCaption = False
     end
     object tbtEdit: TToolButton
-      Left = 110
+      Left = 122
       Hint = 'Edit'
       Top = 0
       Caption = 'Edit'
       ImageIndex = 2
       ShowCaption = False
     end
-    object ToolButton1: TToolButton
-      Left = 133
+    object tbtDelete: TToolButton
+      Left = 145
       Hint = 'Delete'
       Top = 0
       Caption = 'Delete'
+      ImageIndex = 5
+      ShowCaption = False
     end
   end
   object DBGrid: TDBGrid
