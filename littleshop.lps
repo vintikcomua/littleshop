@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="10" Y="13"/>
-        <UsageCount Value="99"/>
+        <UsageCount Value="103"/>
       </Unit>
       <Unit>
         <Filename Value="dmmain.pas"/>
@@ -20,10 +20,11 @@
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="dmMain"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="42"/>
+        <TopLine Value="2"/>
         <CursorPos X="22" Y="42"/>
-        <UsageCount Value="99"/>
+        <UsageCount Value="103"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="units\uglobalvar.pas"/>
@@ -32,7 +33,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="8"/>
         <CursorPos X="21" Y="17"/>
-        <UsageCount Value="94"/>
+        <UsageCount Value="98"/>
       </Unit>
       <Unit>
         <Filename Value="forms\fmain.pas"/>
@@ -41,11 +42,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="fMain"/>
-        <TopLine Value="55"/>
-        <CursorPos X="26" Y="67"/>
-        <UsageCount Value="85"/>
+        <TopLine Value="60"/>
+        <CursorPos Y="69"/>
+        <UsageCount Value="89"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="forms\fabout.pas"/>
@@ -56,7 +56,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4"/>
         <CursorPos X="29" Y="22"/>
-        <UsageCount Value="62"/>
+        <UsageCount Value="66"/>
       </Unit>
       <Unit>
         <Filename Value="frames\frdicbrand.pas"/>
@@ -67,9 +67,9 @@
         <UnitName Value="frDicBrand"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="12"/>
-        <CursorPos X="14" Y="14"/>
-        <UsageCount Value="52"/>
+        <TopLine Value="34"/>
+        <CursorPos X="27" Y="47"/>
+        <UsageCount Value="56"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -120,28 +120,16 @@
         <CursorPos X="3" Y="31"/>
         <UsageCount Value="7"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-db\src\base\db.pas"/>
+        <UnitName Value="DB"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1891"/>
+        <CursorPos X="3" Y="1900"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
-      <Position>
-        <Filename Value="forms\fmain.pas"/>
-        <Caret Line="60" TopLine="44"/>
-      </Position>
-      <Position>
-        <Filename Value="forms\fmain.pas"/>
-        <Caret Line="59" TopLine="43"/>
-      </Position>
-      <Position>
-        <Filename Value="forms\fmain.pas"/>
-        <Caret Line="58" TopLine="42"/>
-      </Position>
-      <Position>
-        <Filename Value="forms\fmain.pas"/>
-        <Caret Line="68" TopLine="52"/>
-      </Position>
-      <Position>
-        <Filename Value="forms\fmain.pas"/>
-        <Caret Line="67" TopLine="51"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="forms\fmain.pas"/>
         <Caret Line="66" TopLine="50"/>
@@ -235,6 +223,30 @@
       <Position>
         <Filename Value="frames\frdicbrand.pas"/>
         <Caret Line="14" Column="14" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="forms\fmain.pas"/>
+        <Caret Line="69" Column="47" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="frames\frdicbrand.pas"/>
+        <Caret Line="35" Column="24" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="frames\frdicbrand.pas"/>
+        <Caret Line="16" Column="5" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="forms\fmain.pas"/>
+        <Caret Line="69" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="forms\fmain.pas"/>
+        <Caret Line="70" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="frames\frdicbrand.pas"/>
+        <Caret Line="48" Column="30" TopLine="33"/>
       </Position>
     </JumpHistory>
     <RunParams>

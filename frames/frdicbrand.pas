@@ -5,7 +5,7 @@ unit frDicBrand;
 interface
 
 uses
-  Classes, SysUtils, DB, Forms, Controls, ComCtrls, DBGrids;
+  Classes, SysUtils, DB, Forms, Controls, ComCtrls, DBGrids, ExtCtrls;
 
 type
 
@@ -15,6 +15,8 @@ type
     DataSource: TDataSource;
     DBGrid: TDBGrid;
     ilNavigatorButton: TImageList;
+    ilNavigatorButton1: TImageList;
+    pTop: TPanel;
     tbNavigator: TToolBar;
     tbtSelect: TToolButton;
     tbtSeparator1: TToolButton;
@@ -22,6 +24,12 @@ type
     tbtCopy: TToolButton;
     tbtEdit: TToolButton;
     tbtDelete: TToolButton;
+    tbtSeparator2: TToolButton;
+    tbtRefresh: TToolButton;
+    tbWindow: TToolBar;
+    tbtClose: TToolButton;
+    tbtHelp: TToolButton;
+    procedure tbtCloseClick(Sender: TObject);
   private
 
   public
@@ -31,6 +39,15 @@ type
 implementation
 
 {$R *.lfm}
+
+{ TDicBrandFrame }
+
+procedure TDicBrandFrame.tbtCloseClick(Sender: TObject);
+begin
+  if DataSource.DataSet <> nil then
+     DataSource.DataSet.Close;
+  Parent.Free;
+end;
 
 end.
 
